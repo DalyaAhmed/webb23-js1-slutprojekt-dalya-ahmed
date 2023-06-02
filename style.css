@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("img/bg1.jpg");
+  min-height: 92vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.header h4 {
+    color: #561eda;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  button {
+  margin: 10px;
+  padding: 5px;
+  }
+  .app-main {
+    min-height: 10vh;
+    width: 40vw;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(60, 67, 64, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 15px;
+    background: #2c3f47; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #afb9af,
+      #c0dfec
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #d7ddd7,
+      #f9fcfd
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .app-main > * {
+    margin-bottom: 0px;
+  }
+  input {
+    width: 100%;
+    background: azure;
+    color: #3aa0e4;
+    font-weight: 500;
+    border: none;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+  }
+  .container{
+    
+    color: #fff;
+    padding: 20px;
+    line-height: 1rem;
+    border-radius: 10px;
+    background-color: #eff1f3;
+    background: linear-gradient(
+      to top,
+      #c1bfce,
+      #d8e9e5
+    );
+  }
+
+  .forecast {
+    display: inline-block;
+    width: 150px;
+    height: 220px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(37, 14, 14);
+    text-align: center;
+  }
+  
+  .forecast > * {
+    margin-bottom: 10px;
+  }
+  .forecost-weather{
+    margin: 20px;
+   
+  }
+  p{
+    color: pink;
+  }
+  h1{
+    color: indianred;
+  }
+
+  h2{
+    margin: 20px;
+    color: rgb(60, 44, 119);
+  }
+
+  h3{
+    margin: 15px;
+  }
+  .forecast img {
+    height: 70px;
+  }
+@media screen and (max-width: 800px) {
+    .app-main {
+      width: 95%;
+      padding: 10px;
+    }
+    body {
+      min-height: 94vh;
+    }
+  }
+  

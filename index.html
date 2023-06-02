@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="app-main" id="parent">
+    <div class="header">
+        <h4>Get Weather</h4>
+    </div>
+    <div id="form-div">
+        <form>
+            <input type="text" placeholder="city">
+            <button>Search</button>
+        </form>
+        <select id="hoursSelect">
+            <option value="3">1 hours</option>
+            <option value="6">2 hours</option>
+            <option value="9">3 hours</option>
+            <option value="12">4 hours</option>
+        </select>
+    </div>
+   
+        <h3 id="error"></h3>
+        <div id="container" class="container"></div>
+    </div>
+    <div id="forecost-weather" class="forecost-weather"></div>
+</body>
+</html>
